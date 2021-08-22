@@ -2,7 +2,7 @@ import React from 'react';
 import Soda from "./Soda";
 import PropTypes from "prop-types"; 
 
-function TicketList(props){
+function SodaInventory(props){
   return (
     <React.Fragment>
       <hr/>
@@ -15,8 +15,8 @@ function TicketList(props){
   );
 }
 
-TicketList.propTypes = {
-  ticketList: PropTypes.array
+SodaInventory.propTypes = {
+  SodaInventory: PropTypes.array
 };
 
 export default TicketList
