@@ -7,7 +7,7 @@ function SodaDetail(props) {
 
     event.preventDefault();
     props.buyButtonClick({
-      name: props.soda.names, slogan: props.soda.slogan, sugarType: props.soda.sugarType,
+      name: props.soda.name, slogan: props.soda.slogan, sugarType: props.soda.sugarType,
       price: props.soda.price, quantity: props.soda.quantity - event.target.quantity.value,
       moneyMade: props.soda.moneyMade + (event.target.quantity.value * props.soda.price), salePrice: "+" + event.target.quantity.value * props.soda.price, id: props.soda.id
     })
@@ -32,10 +32,10 @@ function SodaDetail(props) {
   }
   return (
     <React.Fragment>
-      <div className="sodalist" >
+      <div className="sodalist">
         <div className="row">
           <div className="column">
-            <h2>{props.soda.names}</h2>
+            <h2>{props.soda.name}</h2>
             <p><em>{props.soda.slogan}</em>  </p>
             <p>Sugar Type: {props.soda.sugarType}</p>
             <p>Price: {props.soda.price}</p>
@@ -44,7 +44,10 @@ function SodaDetail(props) {
             {props.buttonState}
           </div>
           <div className="column">
+            <div className = "box">
+            {props.instructions}
             {show}
+            </div>
           </div>
         </div>
       </div>

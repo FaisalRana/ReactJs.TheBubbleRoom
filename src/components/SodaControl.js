@@ -16,7 +16,7 @@ class SodaControl extends React.Component {
           name: "Pepsi Cola",
           slogan: "That's What I Like",
           sugarType: "Corn Syrup",
-          price: 100,
+          price: 1.50,
           quantity: 100,
           moneyMade: 0,
           id: 1
@@ -97,8 +97,8 @@ class SodaControl extends React.Component {
     })
   }
 
-  handleBuyerButtonClick = () => {
-    this.setState({ pageVisible: "customer" })
+  handleSellButtonClick = () => {
+    this.setState({ pageVisible: "sellPage" })
   }
 
   handleDeleteButton = (id) => {
@@ -114,6 +114,7 @@ class SodaControl extends React.Component {
   render() {
     let currentlyVisibleState = null;
     let buttonText = null;
+    let instructions = null;
     if (this.state.pageVisible === "manage") {
       if (this.state.editButtonPressed) {
         currentlyVisibleState = <EditSodaForm onEditSoda={this.handleEditSodaCreation} soda={this.state.selectedSoda} />
@@ -127,7 +128,8 @@ class SodaControl extends React.Component {
         buttonText = "Return to Soda Inventory";
       }
       else {
-        currentlyVisibleState = <SodaInventory mainSodaInventory={this.state.masterSodaInventory} SodaSelected={this.handleSelectedSoda} />
+        instructions = "Click to see details"
+        currentlyVisibleState = <SodaInventory  instructions={instructions} mainSodaInventory={this.state.masterSodaInventory} SodaSelected={this.handleSelectedSoda} />
         buttonText = "Add Soda to Inventory";
       }
 
@@ -140,13 +142,15 @@ class SodaControl extends React.Component {
       )
     }
 
-    else if (this.state.pageVisible === "customer") {
+    else if (this.state.pageVisible === "sellPage") {
       if (this.state.selectedSoda != null) {
-        currentlyVisibleState = <SodaDetail buttonState={this.state.buttonState} buttonStateFunc={this.handlePriceThing} soda={this.state.selectedSoda} buyButtonClick={this.handleBuySoda} pageVisible={this.state.pageVisible} buttonText="Sell Soda" />
+        instructions = ""
+        currentlyVisibleState = <SodaDetail instructions={instructions} SodaDetail buttonState={this.state.buttonState} buttonStateFunc={this.handlePriceThing} soda={this.state.selectedSoda} buyButtonClick={this.handleBuySoda} pageVisible={this.state.pageVisible} buttonText="Sell Soda" />
         buttonText = "Return to Soda Inventory";
       }
       else {
-        currentlyVisibleState = <SodaInventory mainSodaInventory={this.state.masterSodaInventory} SodaSelected={this.handleSelectedSoda} />
+        instructions = "Click to see details"
+        currentlyVisibleState = <SodaInventory  instructions={instructions} mainSodaInventory={this.state.masterSodaInventory} SodaSelected={this.handleSelectedSoda} />
         buttonText = "Add Soda to Inventory";
       }
       return (
@@ -164,8 +168,8 @@ class SodaControl extends React.Component {
       return (
         <React.Fragment>
           <p>Please Select <b> Manage </b>Sodas or <b> Sell </b>Sodas</p>
-          <button onClick={this.handleManageButtonClick}>Manager Page</button>
-          <button onClick={this.handleBuyerButtonClick}>Buyer Page</button>
+          <button onClick={this.handleManageButtonClick}>Manage Soda Inventory</button>
+          <button onClick={this.handleSellButtonClick}>Sell Soda</button>
         </React.Fragment>
       )
 

@@ -4,12 +4,14 @@ import PropTypes from 'prop-types';
 function Soda(props) {
   return (
     <React.Fragment>
-      <div onClick={() => props.sodaSelected(props.id)}>
-        <h2>{props.names}</h2>
-        <p><em>{props.slogan}</em></p>
-        <p>Sweetner: {props.sugarType}</p>
-        <p>Price: ${props.price}</p>
-        <p>Quantity Available: {props.quantity}</p>
+      <div className ="box">
+        <div onClick={() => props.sodaSelected(props.id)}>
+          <h2>{props.name}</h2>
+          <p><em>{props.slogan}</em></p>
+          <p>Sweetner: {props.sugarType}</p>
+          <p>Price: ${props.price}</p>
+          <p>Quantity Available: {props.quantity}</p>
+        </div>
       </div>
     </React.Fragment>
   )
