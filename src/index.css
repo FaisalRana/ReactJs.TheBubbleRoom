@@ -5,9 +5,9 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-image: url("./img/1745055.jpg");
+  background-image: url("./img/pepsiSpace.png");
   background-color: black;
-  color: lightgrey;
+  color: black;
   margin-left: 100px;
   margin-top: 20px;
 }
@@ -16,7 +16,7 @@ body {
 
 /* Stars 
 ------------------------------------- */
-
+/* 
 #space, .stars {
   position: absolute;
   top: 0;
@@ -75,13 +75,14 @@ body {
     opacity: 0;
     transform: scale(3.5);
   }
-}
+} */
 
   /* Demo syles 
 ------------------------------------- */
 
 body {
-  background: #000;
+  background-image: url("./img/pepsiSpace1.png");
+  background-size: auto;
   font-family: 'Orbitron', sans-serif;
 }
 
@@ -104,7 +105,7 @@ code {
 button {
 display:inline-block;
 padding:0.35em 1.2em;
-border:0.1em solid #FFFFFF;
+border:0.1em solid  black;
 margin-top: 25px;
 border-radius:0.12em;
 box-sizing: border-box;
@@ -114,6 +115,8 @@ font-weight:300;
 color:black;
 text-align:center;
 transition: all 0.2s;
+size: 200%;
+margin-right: 25px;
 }
 
 button:hover{
@@ -121,6 +124,13 @@ color:#000000;
 background-color:#FFFFFF;
 }
 
+.header1 {
+  color: blue;
+}
+
+.header2 {
+  color: red;
+}
 @media all and (max-width:30em){
 button {
 display:block;
@@ -140,35 +150,6 @@ margin: 0.4em auto;
   font-family: spaceFont;
   src: url(./font/Starjedi.ttf);
 }
-
-/* .saleprice {
-  color:green;
-  animation-delay: 2s;
-  visibility: hidden;
-  opacity: 0;
-  transition: visibility 0s 2s, opacity 2s linear;
-} */
-
-/* .saleprice {
-  opacity: 1;
-  animation: fade 2s linear;
-  color: greenyellow;
-}
-@keyframes fade {
-0%,100% { opacity: 0 }
-50% { opacity: 1 }
-} */
-
-/* .saleprice {
-  visibility: hidden;
-  opacity: 0;
-  transition: visibility 0s linear 300ms, opacity 300ms;
-}
-.saleprice {
-  visibility: visible;
-  opacity: 1;
-  transition: visibility 0s linear 0s, opacity 300ms;
-} */
 
 .saleprice {
   animation: hideAnimation 0s ease-in 5s;

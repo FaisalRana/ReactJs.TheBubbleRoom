@@ -7,8 +7,8 @@ function SodaDetail(props) {
 
     event.preventDefault();
     props.buyButtonClick({
-      name: props.soda.name, heatLevel: props.soda.heatLevel, description: props.soda.description,
-      planet: props.soda.planet, price: props.soda.price, quantity: props.soda.quantity - event.target.quantity.value,
+      name: props.soda.names, slogan: props.soda.slogan, sugarType: props.soda.sugarType,
+      price: props.soda.price, quantity: props.soda.quantity - event.target.quantity.value,
       moneyMade: props.soda.moneyMade + (event.target.quantity.value * props.soda.price), salePrice: "+" + event.target.quantity.value * props.soda.price, id: props.soda.id
     })
     props.buttonStateFunc(event.target.quantity.value * props.soda.price)
@@ -35,10 +35,9 @@ function SodaDetail(props) {
       <div className="sodalist" >
         <div className="row">
           <div className="column">
-            <h2>{props.soda.name}'s Ticket</h2>
-            <p><em>{props.soda.description}</em>  </p>
-            <p>Heat Level: {props.soda.heatLevel}</p>
-            <p>Planet:{props.soda.planet}</p>
+            <h2>{props.soda.names}</h2>
+            <p><em>{props.soda.slogan}</em>  </p>
+            <p>Sugar Type: {props.soda.sugarType}</p>
             <p>Price: {props.soda.price}</p>
             <p>Quantity: {props.soda.quantity}</p>
             <p>Money Made: ${props.soda.moneyMade}</p>
