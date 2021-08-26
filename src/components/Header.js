@@ -12,7 +12,7 @@ function Header() {
   return (
     <div style={headerStyle}>
       <div className="row">
-          <div className="column"> <span className="header1"> The International</span> <span className="header2">Pepsi<sup>®</sup> Station </span></div>
+          <div className="column"> <span className="header1"> The international</span> <span className="header2">Pepsi<sup>®</sup> Station </span></div>
           </div>
         </div>
   );

@@ -23,8 +23,9 @@ function SodaInventory(props) {
         
       </div>
 
-    <div className="column">
+   
     {props.mainSodaInventory.map((soda) =>
+    <div className="column">
         <div style = {box}>
           <Soda style={box}
             sodaSelected={props.SodaSelected}
@@ -36,9 +37,11 @@ function SodaInventory(props) {
             id={soda.id}
             key={soda.id} />
         </div>
+        </div> 
         )
+        
     }
-    </div>
+  
     </div>
     </React.Fragment>
   )

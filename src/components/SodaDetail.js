@@ -44,12 +44,10 @@ function SodaDetail(props) {
             {props.buttonState}
           </div>
           <div className="column">
-            <div className = "box">
             {props.instructions}
             {show}
             </div>
           </div>
-        </div>
       </div>
 
     </React.Fragment >
