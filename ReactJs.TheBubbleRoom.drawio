@@ -1,62 +1,100 @@
-<mxfile host="app.diagrams.net" modified="2021-08-20T22:22:20.163Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15" etag="fINhY0343klDBQD484Zp" version="14.9.7" type="github">
+<mxfile host="app.diagrams.net" modified="2021-08-27T03:44:49.950Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36" etag="74eRnj1B6dhDTkk3mN97" version="15.0.2" type="github">
   <diagram id="0gDQ7mKvqnQmOCOYGsbZ" name="Page-1">
-    <mxGraphModel dx="1144" dy="677" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1186" dy="707" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="H_ftfsLI6rwE4DoHPsOa-1" value="Header&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="100" y="50" width="720" height="120" as="geometry" />
+        <mxCell id="H_ftfsLI6rwE4DoHPsOa-1" value="Header&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="100" y="50" width="1020" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="H_ftfsLI6rwE4DoHPsOa-2" value="" style="whiteSpace=wrap;html=1;aspect=fixed;align=left;" vertex="1" parent="1">
-          <mxGeometry x="100" y="190" width="720" height="720" as="geometry" />
+        <mxCell id="H_ftfsLI6rwE4DoHPsOa-2" value="" style="whiteSpace=wrap;html=1;aspect=fixed;align=left;" parent="1" vertex="1">
+          <mxGeometry x="100" y="190" width="1020" height="1020" as="geometry" />
         </mxCell>
-        <mxCell id="H_ftfsLI6rwE4DoHPsOa-5" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="120" y="330" width="220" height="350" as="geometry" />
+        <mxCell id="H_ftfsLI6rwE4DoHPsOa-5" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="120" y="440" width="220" height="350" as="geometry" />
         </mxCell>
-        <mxCell id="H_ftfsLI6rwE4DoHPsOa-6" value="Soda List&lt;br&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="140" y="340" width="70" height="20" as="geometry" />
+        <mxCell id="H_ftfsLI6rwE4DoHPsOa-6" value="Soda Inventory&lt;br&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="160" y="450" width="70" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="H_ftfsLI6rwE4DoHPsOa-8" value="Soda &amp;nbsp;w/ Details Button" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="140" y="380" width="120" height="60" as="geometry" />
+        <mxCell id="H_ftfsLI6rwE4DoHPsOa-8" value="Soda &amp;nbsp;w/ Details Button" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="140" y="710" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="H_ftfsLI6rwE4DoHPsOa-9" value="Soda &amp;nbsp;w/ Details Button" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="140" y="450" width="120" height="60" as="geometry" />
+        <mxCell id="H_ftfsLI6rwE4DoHPsOa-9" value="Soda &amp;nbsp;w/ Details Button" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="140" y="490" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="H_ftfsLI6rwE4DoHPsOa-10" value="Soda &amp;nbsp;w/ Details Button" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="140" y="520" width="120" height="60" as="geometry" />
+        <mxCell id="H_ftfsLI6rwE4DoHPsOa-10" value="Soda &amp;nbsp;w/ Details Button" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="140" y="560" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="H_ftfsLI6rwE4DoHPsOa-11" value="Add New Soda Button&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="140" y="600" width="120" height="60" as="geometry" />
+        <mxCell id="H_ftfsLI6rwE4DoHPsOa-11" value="Add New Soda Button&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="140" y="630" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="H_ftfsLI6rwE4DoHPsOa-12" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="350" y="330" width="230" height="350" as="geometry" />
+        <mxCell id="H_ftfsLI6rwE4DoHPsOa-12" value="" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;" parent="1" vertex="1">
+          <mxGeometry x="345" y="440" width="230" height="350" as="geometry" />
         </mxCell>
-        <mxCell id="H_ftfsLI6rwE4DoHPsOa-13" value="New Soda Form&lt;br&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="400" y="350" width="120" height="80" as="geometry" />
+        <mxCell id="H_ftfsLI6rwE4DoHPsOa-13" value="NewSodaForm" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="400" y="440" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="H_ftfsLI6rwE4DoHPsOa-18" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="600" y="330" width="210" height="350" as="geometry" />
+        <mxCell id="H_ftfsLI6rwE4DoHPsOa-18" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="595" y="440" width="265" height="350" as="geometry" />
         </mxCell>
-        <mxCell id="H_ftfsLI6rwE4DoHPsOa-19" value="Soda Details&lt;br&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="620" y="360" width="160" height="60" as="geometry" />
+        <mxCell id="H_ftfsLI6rwE4DoHPsOa-19" value="Soda Details&lt;br&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="620" y="450" width="160" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="H_ftfsLI6rwE4DoHPsOa-20" value="Submit Button&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="405" y="590" width="120" height="60" as="geometry" />
+        <mxCell id="H_ftfsLI6rwE4DoHPsOa-20" value="" style="rounded=0;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
+          <mxGeometry x="360" y="540" width="200" height="220" as="geometry" />
         </mxCell>
-        <mxCell id="H_ftfsLI6rwE4DoHPsOa-22" value="&lt;span style=&quot;font-size: 23px ; text-align: center&quot;&gt;Soda MachineControl&lt;/span&gt;&lt;h1&gt;&lt;span style=&quot;font-size: 12px ; font-weight: normal&quot;&gt;This component will control what view is showing and hold our shared state&lt;/span&gt;&lt;br&gt;&lt;/h1&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px ; font-weight: normal&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+        <mxCell id="H_ftfsLI6rwE4DoHPsOa-22" value="&lt;span style=&quot;font-size: 23px ; text-align: center&quot;&gt;SodaControl&lt;/span&gt;&lt;h1&gt;&lt;span style=&quot;font-size: 12px ; font-weight: normal&quot;&gt;This component will control what view is showing and hold our shared state&lt;/span&gt;&lt;br&gt;&lt;/h1&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px ; font-weight: normal&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="330" y="210" width="300" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="H_ftfsLI6rwE4DoHPsOa-23" value="Sell Soda Button&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="270" y="380" width="60" height="60" as="geometry" />
+        <mxCell id="H_ftfsLI6rwE4DoHPsOa-24" value="Go Back Home" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="270" y="560" width="60" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="H_ftfsLI6rwE4DoHPsOa-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="H_ftfsLI6rwE4DoHPsOa-24" target="H_ftfsLI6rwE4DoHPsOa-23">
+        <mxCell id="H_ftfsLI6rwE4DoHPsOa-25" value="Add Soda To Inventory&lt;br&gt;Button" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="270" y="490" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QkcKcr7a34T0slnGAbB--5" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="QkcKcr7a34T0slnGAbB--1" target="H_ftfsLI6rwE4DoHPsOa-5">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="H_ftfsLI6rwE4DoHPsOa-24" value="Sell Soda Button&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="270" y="450" width="60" height="60" as="geometry" />
+        <mxCell id="QkcKcr7a34T0slnGAbB--1" value="Manage Soda Button" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="330" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="H_ftfsLI6rwE4DoHPsOa-25" value="Sell Soda Button&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="270" y="520" width="60" height="60" as="geometry" />
+        <mxCell id="QkcKcr7a34T0slnGAbB--3" value="Sell Soda Button" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QkcKcr7a34T0slnGAbB--6" value="Submit Button&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="680" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QkcKcr7a34T0slnGAbB--8" value="Reusble Form" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="400" y="570" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QkcKcr7a34T0slnGAbB--10" value="Soda component&amp;nbsp; w/ name, slogan, sugar type, quantity and price properties" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="520" width="120" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="QkcKcr7a34T0slnGAbB--18" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="QkcKcr7a34T0slnGAbB--11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="878" y="533" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QkcKcr7a34T0slnGAbB--11" value="Edit Button" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="730" y="520" width="120" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="QkcKcr7a34T0slnGAbB--12" value="Delete Button" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="730" y="550" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QkcKcr7a34T0slnGAbB--13" value="" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="880" y="440" width="230" height="350" as="geometry" />
+        </mxCell>
+        <mxCell id="QkcKcr7a34T0slnGAbB--14" value="EditSodaForm" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="930" y="460" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="QkcKcr7a34T0slnGAbB--15" value="" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="895" y="530" width="200" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="QkcKcr7a34T0slnGAbB--16" value="Reusble Form" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="935" y="550" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QkcKcr7a34T0slnGAbB--17" value="Submit Button&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="930" y="640" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
