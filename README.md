@@ -5,7 +5,7 @@
 <h3 align="center"> Epicodus - January PT Cohort </h3>
 <h5 align="center"> ReactJS First Assignment  </h5>
 
-<p>This ReactJS application that will allow a user to manage and keep track of pepsi products. The application allows full CRUD functionality and includes a special button to keep track of sales and profits</p>
+<p>This ReactJS application that will allow a user to manage and keep track of pepsi products. The application allows full CRUD functionality and includes a special button to keep track of sales and profits.  The project demonstrates functional programming and utilizes an approach that avoids mutating the state. It also shows how ReactJS can be utilize reusable components to reduce redundant code.</p>
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
@@ -20,6 +20,10 @@
 * Gh-Pages
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+
+## Component Diagram
+
+![Image of component tree](./src/img/component-diagram.png)
 
 
 ## Known Bugs
@@ -43,12 +47,6 @@
 * _Run the application in development mode with `$ npm run start`_
 * _Open [http://localhost:3000](http://localhost:3000) to view it in the browser_
 
-## Takeaways
-
-* This project shows how React can be used to design a front end of a web applicaton. 
-* React allows for reusable components so that code can be more concise. 
-* The project demonstrates functional programming and utilizes an approach that avoids mutating the state. 
-
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
@@ -68,6 +66,4 @@
 [![GitHub Badge](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/faisalrana)
 [![LinkedIn Badge](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/faisalsrana)
 
-## Component Diagram
 
-![Image of component tree](./src/img/component-diagram.png)
