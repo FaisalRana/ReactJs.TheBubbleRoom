@@ -5,7 +5,8 @@
 <h3 align="center"> Epicodus - January PT Cohort </h3>
 <h5 align="center"> ReactJS First Assignment  </h5>
 
-<p>This ReactJS application that will allow a user to manage and keep track of pepsi products. The application allows full CRUD functionality and includes a special button to keep track of sales and profits.  The project demonstrates functional programming and utilizes an approach that avoids mutating the state. It also shows how ReactJS can be utilize reusable components to reduce redundant code.</p>
+<p>This ReactJS application that will allow a user to manage and keep track of pepsi products. The application allows full CRUD functionality and includes a special button to keep track of sales and profits. The project demonstrates functional programming and utilizes an approach that avoids mutating the state. It also shows how ReactJS can be used for reusable components to reduce redundant code.</p>
+
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
@@ -23,7 +24,7 @@
 
 ## Component Diagram
 
-![Image of component tree](./src/img/component-diagram.png)
+![Image of component tree](./src/img/Component-Diagram.png)
 
 ## Known Bugs
 
