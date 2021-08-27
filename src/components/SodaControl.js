@@ -19,7 +19,8 @@ class SodaControl extends React.Component {
           price: 1.50,
           quantity: 100,
           moneyMade: 0,
-          id: 1
+          id: 1,
+          key: 1
         }
       ],
       selectedSoda: null,

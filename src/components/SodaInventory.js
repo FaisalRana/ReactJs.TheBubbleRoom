@@ -3,9 +3,6 @@ import Soda from "./Soda";
 import PropTypes from "prop-types";
 
 
-
-
-
 function SodaInventory(props) {
   const box = {
     border: 'dashed grey',
@@ -16,17 +13,13 @@ function SodaInventory(props) {
   return (
     <React.Fragment>
     <div className="row">
-      <div className="column">
-       
-      
+      <div className="column">      
         <p>{props.instructions}</p>
-        
       </div>
 
    
-    {props.mainSodaInventory.map((soda) =>
-    <div className="column">
-        <div style = {box}>
+    {props.mainSodaInventory.map((soda, i) =>
+        <div style = {box} key={i}>
           <Soda style={box}
             sodaSelected={props.SodaSelected}
             name={soda.name}
@@ -35,11 +28,9 @@ function SodaInventory(props) {
             price={soda.price}
             quantity={soda.quantity}
             id={soda.id}
-            key={soda.id} />
+            key={soda.key} />
         </div>
-        </div> 
         )
-        
     }
   
     </div>
@@ -49,7 +40,7 @@ function SodaInventory(props) {
 
 SodaInventory.propTypes = {
   mainsodaInventory: PropTypes.array,
-  sodaSelected: PropTypes.func
+  sodaSelected: PropTypes.func,
 }
 
 export default SodaInventory

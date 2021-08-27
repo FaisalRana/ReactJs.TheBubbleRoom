@@ -19,11 +19,12 @@ function Soda(props) {
 
 Soda.propTypes = { // lower camel case because its a property here
   name: PropTypes.string.isRequired,
-  slogan: PropTypes.number, // upper camel case because its reffering to the library
+  slogan: PropTypes.string, // upper camel case because its reffering to the library
   sugarType: PropTypes.string,
   price: PropTypes.number,
   quantity: PropTypes.number.isRequired,
   SodaSelected: PropTypes.func
+
 };
 
 export default Soda;
