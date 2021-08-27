@@ -25,7 +25,6 @@
 
 ![Image of component tree](./src/img/component-diagram.png)
 
-
 ## Known Bugs
 
 * There are currently no known bugs
